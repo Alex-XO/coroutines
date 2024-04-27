@@ -28,7 +28,7 @@ fun main() = runBlocking {
                 a = b
                 b = sum
                 println(b)
-                val delayTime = Random.nextLong(1000L, 5000L)
+                val delayTime = Random.nextLong(200L, 1000L)
                 delay(delayTime)
             }
         }
